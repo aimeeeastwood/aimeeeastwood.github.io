@@ -1,0 +1,42 @@
+body {
+  background-color: rgb(50, 40, 40);
+  text-alight: center;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+h1 {
+  color: rgb(150, 40, 40);
+}
+.smaller-image {
+  width: 800px;
+}
+.red-text {
+  color: darkred;
+}
+.center-text {
+  text-align: center;
+}
+
+/* widescreen displays */
+@media only screen and (min-width: 920px) {
+  .container {
+    font-size: 40px;
+    padding: 40px;
+  }
+}
+
+/* tablets */
+@media only screen and (max-width: 919px) {
+  .container {
+    font-size: 20px;
+    padding: 20px;
+  }
+}
+
+/* phones */
+@media only screen and (max-width: 400px) {
+  .container {
+    font-size: 10px;
+    padding: 10px;
+  }
+}
